@@ -1,0 +1,159 @@
+<header>
+
+<style media="screen">
+	body {
+
+	background-image: url("gifs/bgstar.gif");
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+	font-family: sansserif;
+	font-weight:bold;
+	font-size:1.4em;
+}
+
+.rainbowText {
+
+  background-image:
+    linear-gradient(to right, black,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 40s linear infinite;
+}
+
+.rainbowText2 {
+
+  background-image:
+    linear-gradient(to right, white,lime,white,green,white,purple,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move2 400s linear infinite;
+}
+
+@keyframes move {
+	to {
+		background-position: 4500vh;
+	}
+}
+
+@keyframes move2 {
+	to {
+		background-position: -4500vh;
+	}
+}
+
+@keyframes expand {
+	0%{letter-spacing:0px;}
+
+	100%{letter-spacing:20px;}
+}
+
+.expander{
+	animation: expand 1.5s infinite linear;
+}
+
+@keyframes jazz{
+	0%{transform:skewX(70deg)}
+	25%{transform:skewX(-20deg)}
+	50%{transform:skewX(60deg)}
+	75%{transform:skewX(-60deg)}
+	100%{transform:skewX(45deg)}
+}
+
+@keyframes neonflash1 {
+	0%{opacity:1}
+	19%{opacity:1}
+	20%{opacity:0}
+	49%{opacity:1}
+	50%{opacity:0}
+	59%{opacity:0}
+	60%{opacity:1}
+	79%{opacity:1}
+	80%{opacity:1}
+	99%{opacity:0}
+	100%{opacity:0}
+}
+
+@keyframes neonflash {
+	0%{opacity:0;color:lime}
+	10%{opacity:1;color:magenta;}
+	20%{opacity:0;color:lime}
+	30%{opacity:1;color:yellow}
+	40%{opacity:0;color:lime}
+	50%{opacity:1;color:white}
+	60%{opacity:0;color:lime}
+	70%{opacity:1;color:cyan}
+	80%{opacity:0;color:pink}
+	99%{opacity:1;color:magenta}
+	100%{opacity:0}
+}
+
+.neonflasher{
+	animation: neonflash 2s infinite;
+}
+
+.jazzer3{
+	animation: jazz 3s infinite ;
+}
+
+.jazzer2{
+	animation: jazz 2s infinite ;
+}
+
+.jazzer1{
+	animation: jazz 1s infinite ;
+}
+
+
+.box{
+	border: solid 2px yellow;
+	margin:6px;
+	padding:6px;
+	<!-- max-width:600px -->
+}
+
+</style>
+
+</header>
+
+<body>
+
+<pre style="font-size:1.2em;text-align:center" class="">
+
+
+<img src="gifs/hit.gif" alt="">
+<img src="gifs/cc.gif" alt="">
+<img src="gifs/fx_flame.gif" alt="">
+<img src="gifs/smilo.gif" alt="">
+<img src="gifs/lightning.gif" alt="">
+
+<div class="expander">
+wednesday, <i>may 3rd</i>
+</div>
+
+<div class="neonflasher" style="color:white;">
+	HELLLOOO
+</div>
+
+<img src="gifs/ooze.gif" alt="">
+
+<img src="gifs/tv_gray.gif" alt="">
+<span class="rainbowText2">
+	<div class="jazzer1"><div class="rainbowText2">TAPE FREAKS	</div></div>
+	<div class="jazzer2"><div class="rainbowText2">TAPE FREAKS	</div></div>
+<div class="jazzer3"><div class="rainbowText2">TAPE FREAKS	</div></div>
+<div class="neonflash">$5 SPECIAL</div>
+7pm @ TRYLON
+WIERDO B-MOVIE GRABBAG</span>
+
+<img src="gifs/ooze.gif" alt="">
+
+<img src="gifs/paz.gif" alt="">
+
+
+</pre>
+
+
+
+</body>
